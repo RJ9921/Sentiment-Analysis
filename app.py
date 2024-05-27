@@ -64,11 +64,11 @@ if selected == 'Home':
   
     def get_sentiment(value):
         if value > 0:
-            print(st.header("😃 Happy "))
+            print(st.title("😃 Happy "))
         elif value < 0:
-            print(st.header("😔 Sad "))
+            print(st.tilte("😔 Sad "))
         else:
-            print(st.header("😐 Neutral "))
+            print(st.title("😐 Neutral "))
     
 
     text = st.text_input("Enter Your Text and Press Enter to Run")
