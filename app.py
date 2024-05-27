@@ -3,8 +3,7 @@ from textblob import TextBlob
 from streamlit_option_menu import option_menu
 import base64
 
-options=['Home','Prediction','About Us'],
-        icons=['house','book','envelope','list'],
+
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
