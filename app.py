@@ -69,8 +69,8 @@ if selected == 'Home':
             print(st.title("😔 Sad "))
         else:
             print(st.title("😐 Neutral "))
-    
 
+    st.header('Enter Your Text and Press Enter to Run')
     text = st.text_input("Enter Your Text and Press Enter to Run")
 
     blob = TextBlob(text)
