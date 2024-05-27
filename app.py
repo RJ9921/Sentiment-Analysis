@@ -77,5 +77,9 @@ if selected == 'Home':
 
     st.subheader("Emotion:")
 
-    st.write(get_sentiment(blob.sentiment.polarity))
+
+    sentiment_label = get_sentiment(blob.sentiment.polarity)
+    if sentiment_label:
+        st.header(sentiment_label)
+
 
