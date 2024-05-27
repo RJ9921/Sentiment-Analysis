@@ -64,7 +64,7 @@ if selected == 'Home':
   
     def get_sentiment(value):
         if value > 0:
-            return("😃 Happy ")
+            return(st.title("😃 Happy ")
         elif value < 0:
             return("😏 Sad")
         else:
