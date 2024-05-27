@@ -7,8 +7,8 @@ import base64
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home','Prediction','About Us'],
-        icons=['house','book','envelope','list'],
+        options=['Home','Prediction','Settings','About Us'],
+        icons=['house','book','gear','envelope'],
         styles={
             "container":{"background-color":"#7AA2E3"},
             "nav-link":{
