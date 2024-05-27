@@ -66,7 +66,7 @@ if selected == 'Home':
         if value > 0:
             print(st.title("😃 Happy "))
         elif value < 0:
-            print(st.tilte("😔 Sad "))
+            print(st.title("😔 Sad "))
         else:
             print(st.title("😐 Neutral "))
     
