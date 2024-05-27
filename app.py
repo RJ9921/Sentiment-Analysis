@@ -66,7 +66,7 @@ if selected == 'Home':
         if value > 0:
             print(st.header("😃 Happy "))
         elif value < 0:
-            print(st.header("😏 Sad "))
+            print(st.header("😔 Sad "))
         else:
             print(st.header("😐 Neutral "))
     
