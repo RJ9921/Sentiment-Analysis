@@ -3,12 +3,13 @@ from textblob import TextBlob
 from streamlit_option_menu import option_menu
 import base64
 
-
+options=['Home','Prediction','About Us'],
+        icons=['house','book','envelope','list'],
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home'],
-        icons=['house'],
+        options=['Home','Prediction','About Us'],
+        icons=['house','book','envelope','list'],
         styles={
             "container":{"background-color":"#7AA2E3"},
             "nav-link":{
