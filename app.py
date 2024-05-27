@@ -66,9 +66,10 @@ if selected == 'Home':
         if value > 0:
             print(st.header("😃 Happy "))
         elif value < 0:
-            return("😏 Sad")
+            print(st.header("😏 Sad "))
         else:
-            return("😐 Neutral")
+            print(st.header("😐 Neutral "))
+    
 
     text = st.text_input("Enter Your Text and Press Enter to Run")
 
