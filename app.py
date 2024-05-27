@@ -38,7 +38,7 @@ if selected == 'Home':
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<p class="big-font1"> WELCOME TO THE SENTIMENT ANALYSIS SYSTEM </p>',unsafe_allow_html=True)
+    st.markdown('<p class="big-font1"> WELCOME TO THE EMOTION PREDICTION SYSTEM </p>',unsafe_allow_html=True)
     file_=open("sent.png","rb")
     contents=file_.read()
     data_url=base64.b64encode(contents).decode("utf-8")
